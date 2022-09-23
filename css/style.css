@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #b0e0e6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#caixa {
+  border: 2px solid #048495;
+  border-radius: 60px;
+  width: 40%;
+  margin-top: 5%;
+  background-color: #78d0db;
+}
+
+.border {
+  border: 1px solid black;
+  width: 30%;
+  align-items: center;
+  padding: 2%;
+  text-align: center;
+  font-size: 1.2em;
+  color: #048495;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#imc {
+  padding: 3%;
+}
+
+#imc h2 {
+  text-align: center;
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
+#imc form label {
+  display: block;
+  padding: 3%;
+  font-size: 1.2em;
+}
+
+#imc form input {
+  padding: 3%;
+}
+
+#imc form button {
+  display: block;
+  padding: 3%;
+  margin: 10% 0 10% 0;
+  width: 50%;
+}
+
+.conta {
+  border: 1px solid black;
+  height: 10%;
+  margin-left: 3%;
+  padding-top: 9%;
+  align-items: center;
+  padding: 2%;
+  text-align: center;
+  font-size: 1em;
+  color: #048495;
+  border-radius: 10px;
+  background-color: white;
+}
+
+tr,
+td {
+  border: 2px solid #048495;
+  padding: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+table {
+  margin-top: 10px;
+}
+
+/* Inicio media query responsividade */
+@media (max-width: 1080px) {
+  #caixa {
+    width: 50%;
+    height: auto;
+    margin-top: 5%;
+    padding: 1%;
+  }
+  #imc {
+    padding: 1%;
+  }
+  #imc h2 {
+    font-size: 25px;
+  }
+  #imc form label {
+    padding: 1%;
+    font-size: 1.1em;
+  }
+  #imc form input {
+    padding: 4%;
+  }
+  #imc form button {
+    padding: 4%;
+    margin: 5% 0 5% 0;
+    width: 50%;
+    font-size: 14px;
+  }
+  .border {
+    width: 25%;
+    padding: 2%;
+    font-size: 1.2em;
+  }
+  .conta {
+    height: 10%;
+    margin-left: 3%;
+    padding-top: 9%;
+    padding: 2%;
+    font-size: 1.2em;
+  }
+  tr,
+  td {
+    padding: 2px;
+    font-size: 13px;
+  }
+
+  table {
+    width: 85%;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  #caixa {
+    width: 70%;
+    height: auto;
+    margin-top: 5%;
+    padding: 1%;
+  }
+  #imc {
+    padding: 1%;
+  }
+  #imc h2 {
+    font-size: 25px;
+  }
+  #imc form label {
+    padding: 1%;
+    font-size: 1.1em;
+  }
+  #imc form input {
+    padding: 4%;
+  }
+  #imc form button {
+    padding: 4%;
+    margin: 5% 0 5% 0;
+    width: 50%;
+    font-size: 14px;
+  }
+  .border {
+    width: 25%;
+    padding: 2%;
+    font-size: 1.2em;
+  }
+  .conta {
+    height: 10%;
+    margin-left: 3%;
+    padding-top: 9%;
+    padding: 2%;
+    font-size: 1.2em;
+  }
+  tr,
+  td {
+    padding: 2px;
+    font-size: 13px;
+  }
+
+  table {
+    width: 85%;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  #caixa {
+    width: 90%;
+    height: auto;
+    margin-top: 10%;
+    padding: 1%;
+  }
+  #imc {
+    padding: 1%;
+  }
+  #imc h2 {
+    font-size: 22px;
+  }
+  #imc form label {
+    padding: 1%;
+    font-size: 1em;
+  }
+  #imc form input {
+    padding: 2%;
+  }
+  #imc form button {
+    padding: 1%;
+    margin: 5% 0 5% 0;
+    width: 40%;
+  }
+  .border {
+    width: 25%;
+    padding: 2%;
+    font-size: 1.1em;
+  }
+  .conta {
+    height: 10%;
+    margin-left: 3%;
+    padding-top: 9%;
+    padding: 2%;
+    font-size: 1.1em;
+  }
+  tr,
+  td {
+    padding: 2px;
+    font-size: 10px;
+  }
+
+  table {
+    width: 85%;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  #caixa {
+    width: 90%;
+    height: auto;
+    margin-top: 10%;
+    padding: 1%;
+  }
+  #imc {
+    padding: 1%;
+  }
+  #imc h2 {
+    font-size: 20px;
+  }
+  #imc form label {
+    padding: 1%;
+    font-size: 1em;
+  }
+  #imc form input {
+    padding: 2%;
+  }
+  #imc form button {
+    padding: 1%;
+    margin: 5% 0 5% 0;
+    width: 40%;
+  }
+  .border {
+    width: 25%;
+    padding: 2%;
+    font-size: 1.1em;
+  }
+  .conta {
+    height: 10%;
+    margin-left: 3%;
+    padding-top: 9%;
+    padding: 2%;
+    font-size: 1.1em;
+  }
+  tr,
+  td {
+    padding: 2px;
+    font-size: 10px;
+  }
+
+  table {
+    width: 85%;
+    margin-top: 10px;
+  }
+}
+/* fim responsividade */
